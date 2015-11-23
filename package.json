@@ -1,6 +1,6 @@
 {
   "name": "emusic-dlm",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "This command line utility allows you to download music files from the eMusic Service on Linux.",
   "author": "Glenn Boysko <gboysko@gmail.com>",
   "scripts": {
