@@ -28,7 +28,7 @@ function processSpec(spec, trackInfo) {
 		if (token.type === 'TEXT') {
 			return token.value;
 		} else if (token.type === 'TOKEN') {
-			return trackInfo[token.value];
+			return trackInfo[token.value].replace("/", "_");
 		}
 	});
 }
