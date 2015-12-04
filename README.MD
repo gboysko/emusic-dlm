@@ -12,6 +12,14 @@ When run, it monitors a specific _watch directory_ for the presence of new `.emx
 
 Once started, it informs the user of its activity. It remains waiting for new files until you end the problem (with Control-C).
 
+## Enabling EMX Downloads
+
+To indicate to eMusic that you would like to use this download manager, you need to enter this URL in the same browser which you will download songs from:
+
+http://www.emusic.com/dlm/install/
+
+You need to do this once for each browser session.
+
 ## Command Line Arguments
 
 The following command line arguments exist for this command line utility:
